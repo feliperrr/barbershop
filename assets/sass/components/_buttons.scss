@@ -1,0 +1,34 @@
+%btn{
+    color: $white;
+    display: inline-block;
+    padding: 0 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color: $nickel;
+    font-family: $roboto;
+    font-size: $small;
+ 
+    &:hover{
+        background-color: $lightgray;
+        text-decoration: none;
+        color: $font-white;
+    }
+    &:focus {
+        border:$lightgray  solid;
+      } 
+}
+.button{
+    padding: 40px 30px;
+}
+
+
+.button-1{   
+    @extend %btn; 
+      
+ }  
+ 
+ .button-2{
+     @extend %btn;
+ }

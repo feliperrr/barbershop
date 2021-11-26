@@ -1,0 +1,34 @@
+.nav__inicio{
+    background-color: $eerieblack;
+}
+.nav__img{
+    height: 2rem;
+    width: auto;
+    line-height: 3rem;    
+}
+.nav__element{
+    color: $font-white;
+    &:hover{
+        color: $ruddypink;
+    }
+}
+
+.nav__pagination{
+    background-color: $lightgray;
+    padding: 3rem 0; 
+}
+
+.page-link{   
+    color: $eerieblack;
+
+}
+.page-item{
+    color: black;
+}
+
+
+
+//border-top-left-radius: Define la esquina superior izquierda.
+//border-top-right-radius: Define la esquina superior derecha.
+//border-bottom-right-radius: Define la esquina inferior derecha.
+//border-bottom-left-radius: Defina la esquina inferior izquierda.

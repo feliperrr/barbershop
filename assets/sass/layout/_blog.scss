@@ -1,0 +1,49 @@
+.blog__contenedor{    
+    padding: 2rem;
+}
+
+.blog__image{    
+    border-radius: 100%;
+    width: 150px;
+    height: auto;  
+}
+
+%blog__redes{
+    padding-top: 20px;
+    font-size: $medium;   
+    text-align: left;
+    margin: 0rem;
+    display: block
+}
+
+.blog__letra1{
+    @extend %blog__redes;    
+    font-style: italic;
+    font-family:$playfair;
+   font-size: $large;
+   font-weight: bold;
+}
+
+.blog__letra2{
+    @extend %blog__redes;    
+    color: $ruddypink;
+    font-family: $roboto;
+    &:focus {
+        color: $eerieblack;
+      } 
+    
+}
+
+.blog__letra3{
+    @extend %blog__redes;   
+    color: $ruddypink;
+    font-family: $roboto;
+    
+}
+
+.blog__texto{
+    padding-top: 1.5rem;
+    text-align: left;
+    text-justify: auto;
+    font-family: $roboto;
+}
